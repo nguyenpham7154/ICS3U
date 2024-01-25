@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "src\\U1",
+        "src\\U2",
+        "src\\U3",
+        "src\\U4",
+        "src\\U5",
+        "src\\U6",
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.dependency.packagePresentation": "hierarchical"
+}
