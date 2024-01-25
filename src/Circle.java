@@ -5,7 +5,6 @@ import java.util.*;
 public class Circle {
 	// Rounding function
 	public static double round2D(double num) {return Math.round(num * 100) / 100.0;}
-	
 	public static void main(String[] args) {
 		// Scanner object
     	Scanner userInput = new Scanner(System.in);
