@@ -1,12 +1,12 @@
 {
     "java.project.sourcePaths": [
         "src",
-        "src\\U1",
-        "src\\U2",
-        "src\\U3",
-        "src\\U4",
-        "src\\U5",
-        "src\\U6",
+        "src\\Unit 1",
+        "src\\Unit 2",
+        "src\\Unit 3",
+        "src\\Unit 4",
+        "src\\Unit 5",
+        "src\\Unit 6",
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
