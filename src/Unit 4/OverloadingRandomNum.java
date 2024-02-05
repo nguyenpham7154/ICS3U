@@ -4,16 +4,16 @@ public class OverloadingRandomNum {
 	public static Scanner userInput = new Scanner(System.in);
 	
 	public static int randomNumber() {
-		return (int)Math.floor(Math.random() * 6) + 1;
+		return (int) Math.floor(Math.random() * 6) + 1;
 	}
     public static int randomNumber(int n) {
-		return (int)Math.floor(Math.random() * n) + 1;
+		return (int) Math.floor(Math.random() * n) + 1;
 	}
     public static int randomNumber(int low, int high) {
-		return (int)Math.floor(Math.random() * (high - low + 1)) + low;
+		return (int) Math.floor(Math.random() * (high - low + 1)) + low;
 	}
     public static int randomNumber(int low, int high, int step) {
-		return (int)Math.floor(Math.random() * ((high - low)/step) + 1) * step + low;
+		return (int) Math.floor(Math.random() * ((high - low)/step) + 1) * step + low;
 	}
 	public static void main(String[] args) {
 		int n = userInput.nextInt();

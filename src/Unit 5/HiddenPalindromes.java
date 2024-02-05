@@ -11,14 +11,13 @@ public class HiddenPalindromes {
  
         for (int i=0; i<n; i++) {
             for (int j=i; j<n; j++) {
-                
             	Boolean match = true;
-            	
                 for (int k=0; k < (j - i + 1)/2; k++) {
-                    if (str.charAt(i + k) != str.charAt(j - k)) match = false;
+                    if (str.charAt(i + k) != str.charAt(j - k)) 
+                        match = false;
                 }
- 
-                if (match && (j - i + 1) > maxLength) maxLength = j - i + 1;
+                if (match && (j - i + 1) > maxLength) 
+                    maxLength = j - i + 1;
             }
         }
         

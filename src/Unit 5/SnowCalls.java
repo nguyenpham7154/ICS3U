@@ -18,12 +18,14 @@ public class SnowCalls {
 		for (int i=0; i<n; i++) {
 			output[i] = "";
 			for (int j=0; j<10; j++) {
-				if (output[i].length() == 3 || output[i].length() == 7) output[i] += "-";
-				
-				if (Character.isDigit(input[i].charAt(j))) output[i] += input[i].charAt(j);
+				if (output[i].length() == 3 || output[i].length() == 7) 
+					output[i] += "-";
+				if (Character.isDigit(input[i].charAt(j))) 
+					output[i] += input[i].charAt(j);
 				else for (int x=0; x<8; x++) {
 					for (int y=0; y<value[x].length(); y++) {
-						if (input[i].charAt(j) == value[x].charAt(y)) {output[i] += (x+2);}
+						if (input[i].charAt(j) == value[x].charAt(y)) 
+							output[i] += (x+2);
 					}
 				}	
 			}
