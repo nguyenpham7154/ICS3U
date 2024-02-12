@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class Scores {
-	
 	public static Scanner userInput = new Scanner(System.in);
 	public static void main(String[] args) {
 		
