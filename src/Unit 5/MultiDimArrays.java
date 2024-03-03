@@ -18,7 +18,8 @@ public class MultiDimArrays {
 		for (int i=c-1; i>=0; i--) {
 			for (int j=r-1; j>=0; j--) {
 				System.out.print(a[j][i]);
-			} System.out.println();
+			}
+			System.out.println();
 		}
     }
 }

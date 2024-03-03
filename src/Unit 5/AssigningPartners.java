@@ -17,13 +17,16 @@ public class AssigningPartners {
 		
 		for (int i=0; i<n; i++) {
 			String s1 = student[0][i], s2 = student[1][i];
-			if (s1.equals(s2)) {consistent = false; break;}
+			if (s1.equals(s2)) {
+				consistent = false; 
+				break;
+			}
 			for (int j=0; j<n; j++) {
 				if (s1.equals(student[1][j]) && !s2.equals(student[0][j])) {
 				    consistent = false; 
 				    break;
 				}
-			}
+			} 
 		}
 		
 		if (consistent) System.out.println("good");

@@ -7,9 +7,7 @@ public class PartyInvitations {
 		
 		int K = userInput.nextInt();
 		int m = userInput.nextInt();
-		
 		boolean [] uninvited = new boolean [101];
-		
 		
 		for (int i=0; i<m; i++) {
 			int count = 0;
