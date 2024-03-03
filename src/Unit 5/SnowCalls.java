@@ -23,10 +23,8 @@ public class SnowCalls {
 				if (Character.isDigit(input[i].charAt(j))) 
 					output[i] += input[i].charAt(j);
 				else for (int x=0; x<8; x++) {
-					for (int y=0; y<value[x].length(); y++) {
-						if (input[i].charAt(j) == value[x].charAt(y)) 
-							output[i] += (x+2);
-					}
+					if (value[x].indexOf(input[i].charAt(j)) != -1) 
+						output[i] += (x+2);
 				}	
 			}
 		}
