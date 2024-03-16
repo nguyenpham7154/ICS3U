@@ -2,10 +2,8 @@ import java.util.*;
 
 public class HiddenPalindromes {
 	public static Scanner userInput = new Scanner(System.in);
-	
     public static void main(String[] args) {
         String str = userInput.nextLine();
-        
         int n = str.length();
         int maxLength = 1;
  

@@ -4,7 +4,6 @@ public class VoteCount {
 	public static Scanner userInput = new Scanner(System.in);
 
 	public static void main(String[] args) { 
-        
 		int A = 0, B = 0;
 		int V = userInput.nextInt();
 		String v = userInput.next();

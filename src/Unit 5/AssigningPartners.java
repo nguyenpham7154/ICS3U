@@ -2,9 +2,7 @@ import java.util.*;
 
 public class AssigningPartners {
 	public static Scanner userInput = new Scanner(System.in);
-
 	public static void main(String[] args) { 
-		
 		int n = userInput.nextInt();
 		boolean consistent = true;
 		String[][] student = new String[2][n];

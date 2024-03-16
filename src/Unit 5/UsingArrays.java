@@ -3,7 +3,6 @@ import java.util.*;
 public class UsingArrays {
 	public static Scanner userInput = new Scanner(System.in);
 	public static void main(String[] args) {
-
         int[] sample = new int[10];
         
         for(int i = 0; i < 10; i++){
@@ -19,7 +18,7 @@ public class UsingArrays {
         }
         
         int sampleSum = 0;
-        for(int i = 0;i < 10;i++){
+        for(int i = 0 ;i < 10; i++){
             sampleSum += sample[i];
         }
         System.out.println(sampleSum);
@@ -27,6 +26,5 @@ public class UsingArrays {
         for(int i = 0; i < 10; i+=2){
         	System.out.print(sample[i] + " ");
         }
-		
     }
 }

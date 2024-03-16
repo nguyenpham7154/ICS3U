@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class Max {
-	
 	public static double[] getArray(int n) {
 		   double [] temp = new double[n];
 		   for(int x=0; x<n; x++){
@@ -22,7 +21,6 @@ public class Max {
 	
 	public static Scanner userInput = new Scanner(System.in);
 	public static void main(String[] args) {
-		
 		int n = userInput.nextInt();
 	    double [] myArray = getArray(n);
 

@@ -4,9 +4,7 @@ public class SnowCalls {
 	public static Scanner userInput = new Scanner(System.in);
 
 	public static void main(String[] args) { 
-		
 		int n = userInput.nextInt();
-		
 		String[] value = {"ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ"};
 		String[] input = new String[n];
 		String[] output = new String[n];

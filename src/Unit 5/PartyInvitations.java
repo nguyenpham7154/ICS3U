@@ -4,7 +4,6 @@ public class PartyInvitations {
 	
 	public static Scanner userInput = new Scanner(System.in);
 	public static void main(String[] args) {
-		
 		int K = userInput.nextInt();
 		int m = userInput.nextInt();
 		boolean [] uninvited = new boolean [101];

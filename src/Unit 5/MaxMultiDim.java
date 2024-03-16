@@ -2,9 +2,7 @@ import java.util.*;
 
 public class MaxMultiDim {
 	public static Scanner userInput = new Scanner(System.in);
-
 	public static void main(String[] args) { 
-		
 		int r = userInput.nextInt();
 		int max = Integer.MIN_VALUE;
 		
